@@ -1,4 +1,4 @@
 from maven
-copy . /target
+copy . /
 run mvn clean package
-cmd java -jar /demo-0.0.1-SNAPSHOT.jar
+cmd java -jar /target/demo-0.0.1-SNAPSHOT.jar
